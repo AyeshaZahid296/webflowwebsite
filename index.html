@@ -8,6 +8,7 @@
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="css/dropdown-fix.css" rel="stylesheet" type="text/css">
   <!-- <script defer src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-marquee@1/index.js"></script> -->
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
@@ -244,11 +245,11 @@ a,
                     style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0deg) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0deg) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0deg) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0deg) rotateY(0) rotateZ(0) skew(0, 0);transform-style:preserve-3d"
                     class="dropdown-icon w-icon-dropdown-toggle"></div>
                 </div>
-                <nav class="dropdown-menu w-dropdown-list">
-                  <div class="container-large">
-                    <div class="w-layout-grid dropdown-grid">
-                      <div class="dropdown-grid-item">
-                        <div class="dropdown-text-wrap">
+                <nav class="dropdown-menu w-dropdown-list" style="width:100%;">
+                  <div class="container-large" style="max-width:100%;width:100%;padding:0;margin:0;">
+                    <div class="w-layout-grid dropdown-grid" style="width:100%;">
+                      <div class="dropdown-grid-item" style="width:100%;">
+                        <div class="dropdown-text-wrap" style="width:100%;display:flex;justify-content:space-between;">
                           <div class="dropdown-text">Website Design</div>
                           <div class="navbar-menu-icon">
                             <div class="menu-icon-line"></div>
@@ -310,8 +311,8 @@ a,
                         </div>
                       </div>
                       <div class="dropdown-divider"></div>
-                      <div class="dropdown-grid-item">
-                        <div class="dropdown-text-wrap">
+                      <div class="dropdown-grid-item" style="width:100%;">
+                        <div class="dropdown-text-wrap" style="width:100%;display:flex;justify-content:space-between;">
                           <div class="dropdown-text">Advertising &amp; Marketing</div>
                           <div class="navbar-menu-icon">
                             <div class="menu-icon-line"></div>
@@ -507,8 +508,8 @@ a,
                         </div>
                       </div>
                       <div class="dropdown-divider"></div>
-                      <div class="dropdown-grid-item">
-                        <div class="dropdown-text-wrap">
+                      <div class="dropdown-grid-item" style="width:100%;">
+                        <div class="dropdown-text-wrap" style="width:100%;display:flex;justify-content:space-between;">
                           <div class="dropdown-text">Content &amp; Creative</div>
                           <div class="navbar-menu-icon">
                             <div class="menu-icon-line"></div>
@@ -599,8 +600,8 @@ a,
                         </div>
                       </div>
                       <div class="dropdown-divider"></div>
-                      <div class="dropdown-grid-item">
-                        <div class="dropdown-text-wrap">
+                      <div class="dropdown-grid-item" style="width:100%;">
+                        <div class="dropdown-text-wrap" style="width:100%;display:flex;justify-content:space-between;">
                           <div class="dropdown-text">Success Measurement</div>
                           <div class="navbar-menu-icon">
                             <div class="menu-icon-line"></div>
@@ -710,8 +711,8 @@ a,
                         </div>
                       </div>
                       <div class="dropdown-divider"></div>
-                      <div class="dropdown-grid-item">
-                        <div class="dropdown-text-wrap">
+                      <div class="dropdown-grid-item" style="width:100%;">
+                        <div class="dropdown-text-wrap" style="width:100%;display:flex;justify-content:space-between;">
                           <div class="dropdown-text">Tools</div>
                           <div class="navbar-menu-icon">
                             <div class="menu-icon-line"></div>
@@ -2331,6 +2332,7 @@ a,
     type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/webflow.b78a27dae.js"></script>
 
   <script>
     // Perfect Smooth Marquee Animation - No jerk, continuous loop
